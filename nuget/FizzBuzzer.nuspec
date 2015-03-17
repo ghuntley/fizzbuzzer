@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  For more info on this file format visit http://docs.nuget.org/docs/reference/nuspec-reference.
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>FizzBuzzer</id>
+    <version>$version$</version>
+    <owners>ghuntley</owners>
+    <authors>Geoffrey Huntley</authors>
+    <title>FizzBuzzer</title>
+    <description># PM> Install-Package FizzBuzzer</description>
+    <summary>Why Can't Programmers.. Program?</summary>
+    <language>en-US</language>
+    <iconUrl>http://i.imgur.com/K6g50oI.png</iconUrl>
+    <projectUrl>https://github.com/ghuntley/fizzbuzzer</projectUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>FizzBuzz PCL</tags>
+  </metadata>
+  <files>
+    <file src="..\src\FizzBuzzer\bin\Release\FizzBuzzer.dll" target="lib\portable-net45+win+wpa81+wp80+MonoAndroid10+MonoTouch10" />
+    <file src="..\src\FizzBuzzer\*.cs" target="src" />
+  </files>
+</package>
