@@ -22,7 +22,7 @@ namespace FizzBuzzer
 
         public IEnumerable<string> ShakeIt()
         {
-            return Enumerable.Range(MinValue, MaxValue).Select(FizzOrBuzz);
+            return Enumerable.Range(MinValue, MaxValue - MinValue + 1).Select(FizzOrBuzz);
         }
 
         public string FizzOrBuzz(int number)
